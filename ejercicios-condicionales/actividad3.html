@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+
+<html>
+
+    <body>
+
+        <script>
+            // Desarrolla un programa que solicite al usuario ingresar dos números y 
+            // muestre el mayor de ellos.
+
+            function dos_numeros() {
+                numero1 = parseFloat(prompt("Ingresa ún número:"))
+                numero2 = parseFloat(prompt("Ingresa ún número:"))
+
+                if (numero1 > numero2) {
+                    return `${numero1} es mayor que ${numero2}`
+                } else if (numero1 < numero2) {
+                    return `${numero2} es mayor que ${numero1}`
+                } else {
+                    return "Ambos números son iguales."
+                };
+            };
+
+            document.write(dos_numeros())
+        </script>
+
+    </body>
+
+</html>
+
+
